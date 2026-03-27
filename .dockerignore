@@ -1,0 +1,16 @@
+.git
+.gitignore
+.venv
+__pycache__
+.pytest_cache
+.mypy_cache
+.ruff_cache
+.coverage
+htmlcov
+tests
+data/raw/*
+data/processed/*
+data/indices/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/indices/.gitkeep
